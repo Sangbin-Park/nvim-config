@@ -1,4 +1,4 @@
 require("config.lazy")
 
 
--- git sing test
+-- git plugin Gitsign test
