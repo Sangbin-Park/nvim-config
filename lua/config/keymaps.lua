@@ -21,3 +21,6 @@ mapKey(">", ">gv", "v")
 
 -- floaterm
 mapKey("<C-;>", ":FloatermToggle<CR>")
+
+-- GPT <leader>ld: 진단 목록 보기용 키
+mapKey("<leader>ld", ":lua vim.diagnostic.setloclist()<CR>")
