@@ -14,13 +14,14 @@ opt.ignorecase = true
 opt.smartcase = true
 
 -- visual
-opt.number = true
-opt.relativenumber = true
-opt.termguicolors = true
+opt.number = true                -- 라인 번호 표시
+opt.relativenumber = false       -- 상대 번호 끄기
+opt.cursorline = true            -- 현재 줄 강조
+opt.termguicolors = true         -- true color 지원
 opt.signcolumn = "yes"
 
 -- etc
 opt.encoding = "UTF-8"
-opt.cmdheight = 1
+opt.cmdheight = 2
 opt.scrolloff = 10
 opt.mouse:append("a")
